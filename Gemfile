@@ -27,4 +27,7 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
+  # gem 'open-uri'
+  gem 'google-api-client', '~> 0.11'
+  gem "simple_calendar", "~> 2.0"
 end

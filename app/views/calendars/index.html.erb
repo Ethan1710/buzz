@@ -1,0 +1,18 @@
+<h1>Calendar:</h1>
+<%#= @calendar['results']%>
+
+<%= week_calendar do |date| %>
+  Start date: <%= @calendar['results'][0]['start']%>
+  <br><br>
+  End date: <%= @calendar['results'][0]['end']%>
+  <br><br>
+  Label: <%= @calendar['results'][0]['label']%>
+  <br><br>
+  Category: <%= @calendar['results'][0]['category']%>
+<% end %>
+
+
+Start: <%= @cal['start'] %> <br>
+End: <%= @cal['end'] %> <br>
+Label: <%= @cal['label'] %> <br>
+Category: <%= @cal['category'] %> <br>
